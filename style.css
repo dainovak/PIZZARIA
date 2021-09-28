@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('../imagens/fundo.jpg')
+}
+.container{
+    width: 1500px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b22d00;
+    padding: 10px 20px;
+
+}
+.navegacao{
+    background-color: #d9a300;
+    padding: 10px 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.disk-entrega{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+
+
+}
+
+.menu-principal{
+    display: flex;
+}
+
+.menu-principal li{
+    margin-right: 10px;
+
+}
+
+.conteudo{
+    font-size: 45px;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    font-family: 12px;
+    color: black;
+
+}
+
+.linha-pizza{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coluna-pizza{
+    column-count: 3;
+}
